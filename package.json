@@ -1,0 +1,42 @@
+{
+  "name": "multihopper-route-autopilot",
+  "version": "1.0.0",
+  "description": "Autonomous Private Payroll Disperser & MCP Routing Engine for Solana using MultiHopper Protocol",
+  "main": "dist/index.js",
+  "bin": {
+    "multihopper": "dist/cli.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/cli.js",
+    "mcp": "node dist/mcp/server.js",
+    "test": "node --test dist/**/*.test.js"
+  },
+  "keywords": [
+    "solana",
+    "multihopper",
+    "privacy",
+    "token-2022",
+    "routing",
+    "payroll",
+    "mcp",
+    "ai-agent",
+    "bounty"
+  ],
+  "author": "Antigravity Bounty Hunter",
+  "license": "MIT",
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.6.0",
+    "@solana/spl-token": "^0.4.13",
+    "@solana/web3.js": "^1.98.0",
+    "bs58": "^6.0.0",
+    "commander": "^13.1.0",
+    "dotenv": "^16.4.7",
+    "zod": "^3.24.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.4",
+    "typescript": "^5.7.3"
+  }
+}
+

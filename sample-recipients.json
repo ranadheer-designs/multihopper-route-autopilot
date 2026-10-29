@@ -1,0 +1,18 @@
+[
+  {
+    "address": "7xKXtg2CW87d97TXJSDpbD5jBkheTqA83TZRuJosgAsU",
+    "amount": 2.5,
+    "memo": "Oct Payroll: Senior Frontend Engineer"
+  },
+  {
+    "address": "9WzDXwBbmkg8ZTbNMqUxvQRAyrZzDsGYdLVL9zYtAWWM",
+    "amount": 4.0,
+    "memo": "Oct Payroll: Rust Smart Contract Lead"
+  },
+  {
+    "address": "3yFwqKMtzTUzh9qZgZq3Gbm5k6k1e5q6ZtTzFq3Gbm5k",
+    "amount": 1.25,
+    "memo": "Bounty Reward: Security QA"
+  }
+]
+
